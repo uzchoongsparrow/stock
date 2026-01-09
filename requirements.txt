@@ -15,3 +15,5 @@ easytrader==0.23.0
 beautifulsoup4==4.12.3
 pycryptodome==3.21.0
 python_dateutil==2.9.0.post0
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.1.5 # not directly required, pinned by Snyk to avoid a vulnerability
